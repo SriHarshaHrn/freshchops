@@ -10623,3 +10623,7 @@ div.calendar table td.button {
 {
     background-color: #CC0808;
 }
+
+.nav-primary li.level1.active a {
+    color: blue;
+}
