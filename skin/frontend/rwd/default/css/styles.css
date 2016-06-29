@@ -10624,6 +10624,8 @@ div.calendar table td.button {
     background-color: #CC0808;
 }
 
-.nav-primary li.level1.active a {
-    color: blue;
+.nav-primary li.level1.active a,
+.nav-primary li.level1.view-all:active a
+{
+    color: 37A654;
 }
