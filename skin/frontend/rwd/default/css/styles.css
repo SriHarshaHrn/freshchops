@@ -10619,7 +10619,8 @@ div.calendar table td.button {
 }
 
 .nav-primary li.level0:hover,
-.nav-primary li.active
+.nav-primary li.active,
+.nav-primary li:after
 {
     background-color: #CC0808;
 }
