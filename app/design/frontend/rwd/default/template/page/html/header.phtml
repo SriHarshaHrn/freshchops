@@ -113,11 +113,17 @@ $identifier = Mage::getSingleton('cms/page')->getIdentifier();
         jQuery('li.nav-1').addClass('active');
 <?php endif; ?>
 <?php if ($identifier == 'what-do-we-do'): ?>
-        jQuery('li.nav-2').addClass('active');
-<?php endif ?>
-<?php if ($identifier == 'reach-us'): ?>
         jQuery('li.nav-3').addClass('active');
 <?php endif ?>
+<?php if ($identifier == 'partners'): ?>
+        jQuery('li.nav-4').addClass('active');
+<?php endif ?>
+<?php if ($identifier == 'about-us'): ?>
+        jQuery('li.nav-5').addClass('active');
+<?php endif ?>
+<?php if ($identifier == 'reach-us'): ?>
+        jQuery('li.nav-6').addClass('active');
+<?php endif ?>    
 </script>
 <?php endif ?>
 
